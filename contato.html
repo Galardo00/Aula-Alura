@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contato - Barbearia Ronyjohn</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="corpo">
+	<header >
+		<div class="caixa">
+			<h1><img src="logo-branco.png"></h1>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="contato.html">Contatos</a></li>   	 	
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="maincontato">    
+
+<h2><img class="icon" src="icon.png"></h2>
+		<form class="formulario">
+			<label for="nomesobrenome">Nome e sobrenome</label>
+			<input type="text" id="nomesobrenome" class="inputpadrao" required >
+
+			<label for="insiraemail">Email</label>
+			<input type="email" id="insiraemail" class="inputpadrao" required placeholder="EX:email@dominio.com">
+
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" class="inputpadrao" required placeholder="Ex: ( ) 9999-9999">
+
+			<label for="mensagem">Mensagem</label>
+			<textarea cols="70" rows="10" id="mensagem" class="inputpadrao" required></textarea>
+			<fieldset class="fildsetstyle">
+				<legend>Como prefere o nosso contato?</legend>
+				<label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email" class="inputarea">Email</label>
+
+
+				<label for="radio-telefone"><input type="radio" name="contato"  value="telefone" id="radio-telefone" class="inputarea">Telefone</label>
+
+
+				<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" class="inputarea">Whastapp</label>
+
+			</fieldset>
+			<fieldset class="fildsetstyle">
+				<legend class="melhorhorario">  Qual melhor horário para contato?</legend>
+				<select>
+					<option>Manhã</option>
+					<option>Tarde</option>
+					<option>Noite</option>
+				</select>
+
+
+
+			</fieldset>
+
+
+			<label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+
+			<input type="submit" value="Enviar formulário" class="enviarformulario">
+
+		</form>
+
+
+<table>
+	<thead>
+	<tr>
+		<th class="titulo">Dia</th>
+		<th class="titulo">Horário</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>Segunda</td>
+		<td> 8h as 20h</td>
+	</tr>
+	<tr>
+		<td>Quarta</td>
+		<td> 8h as 20h</td>
+	</tr>
+	<tr>
+		<td>Sexta</td>
+		<td> 8h as 20h</td>
+	</tr>
+	</tbody>
+</table>
+
+
+	</main>
+	<footer>
+		<img src="logo-branco.png">
+		<p> &#169 Copyright Barbearia Ronyjohn - 2019
+		</footer>
+
+
+	</body>
+	</html>
